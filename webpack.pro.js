@@ -103,44 +103,44 @@ module.exports.output = {
 module.exports.module = {
     rules: [
         // 因为没采用Vue，所以这几个loader则不需要
-        // {
-        //     test: /\.vue$/,
-        //     loader: 'vue-loader',
-        //     options: {
-        //         loaders: Mix.options.extractVueStyles ? {
-        //             js: 'babel-loader' + Mix.babelConfig(),
-        //             scss: vueExtractTextPlugin.extract({
-        //                 use: 'css-loader!sass-loader',
-        //                 fallback: 'vue-style-loader'
-        //             }),
-        //             sass: vueExtractTextPlugin.extract({
-        //                 use: 'css-loader!sass-loader?indentedSyntax',
-        //                 fallback: 'vue-style-loader'
-        //             }),
-        //             stylus: vueExtractTextPlugin.extract({
-        //                 use: 'css-loader!stylus-loader?paths[]=node_modules',
-        //                 fallback: 'vue-style-loader'
-        //             }),
-        //             css: vueExtractTextPlugin.extract({
-        //                 use: 'css-loader',
-        //                 fallback: 'vue-style-loader'
-        //             })
-        //         }: {
-        //             js: 'babel-loader' + Mix.babelConfig(),
-        //             scss: 'vue-style-loader!css-loader!sass-loader',
-        //             sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax',
-        //             stylus: 'vue-style-loader!css-loader!stylus-loader?paths[]=node_modules'
-        //         },
-        //
-        //         postcss: Mix.options.postCss
-        //     }
-        // },
-        //
-        // {
-        //     test: /\.jsx?$/,
-        //     exclude: /(node_modules|bower_components)/,
-        //     loader: 'babel-loader' + Mix.babelConfig()
-        // },
+        {
+            test: /\.vue$/,
+            loader: 'vue-loader',
+            options: {
+                loaders: Mix.options.extractVueStyles ? {
+                    js: 'babel-loader' + Mix.babelConfig(),
+                    scss: vueExtractTextPlugin.extract({
+                        use: 'css-loader!sass-loader',
+                        fallback: 'vue-style-loader'
+                    }),
+                    sass: vueExtractTextPlugin.extract({
+                        use: 'css-loader!sass-loader?indentedSyntax',
+                        fallback: 'vue-style-loader'
+                    }),
+                    stylus: vueExtractTextPlugin.extract({
+                        use: 'css-loader!stylus-loader?paths[]=node_modules',
+                        fallback: 'vue-style-loader'
+                    }),
+                    css: vueExtractTextPlugin.extract({
+                        use: 'css-loader',
+                        fallback: 'vue-style-loader'
+                    })
+                }: {
+                    js: 'babel-loader' + Mix.babelConfig(),
+                    scss: 'vue-style-loader!css-loader!sass-loader',
+                    sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax',
+                    stylus: 'vue-style-loader!css-loader!stylus-loader?paths[]=node_modules'
+                },
+
+                postcss: Mix.options.postCss
+            }
+        },
+
+        {
+            test: /\.jsx?$/,
+            exclude: /(node_modules|bower_components)/,
+            loader: 'babel-loader' + Mix.babelConfig()
+        },
 
         {
             test: /\.css$/,
