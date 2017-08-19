@@ -36,7 +36,6 @@ Mix.initialize();
 module.exports.context = path.join(__dirname, "./resources/assets");
 // module.exports.context = Mix.Paths.root();
 
-
 /*
  |--------------------------------------------------------------------------
  | Webpack Entry
@@ -57,7 +56,6 @@ module.exports.entry = {
     ],
     index: "./js/pages/index.js"
 };
-
 
 /*
  |--------------------------------------------------------------------------
