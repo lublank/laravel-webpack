@@ -8,8 +8,8 @@
         <div class="">
             <h1 class="text-center">Laravel5.4 + Webpack2 Framework</h1>
         </div>
+        <h2>Sprite-svg</h2>
         <div class="our-service">
-            <h2>Sprite-svg</h2>
             <div class="feature-item">
                 <div class="item-header">
                     <div class="icon-box">
@@ -21,9 +21,6 @@
                     </div>
                     <p>安全可靠</p>
                 </div>
-                <div class="item-body">
-                    <p>保障账户安全</p>
-                </div>
             </div>
             <div class="feature-item">
                 <div class="item-header">
@@ -34,9 +31,6 @@
                             </svg>
                         </div>
                     </div>
-                    <p>诚信</p>
-                </div>
-                <div class="item-body">
                     <p>诚信可靠</p>
                 </div>
             </div>
@@ -51,9 +45,6 @@
                     </div>
                     <p>自由合作</p>
                 </div>
-                <div class="item-body">
-                    <p>提供自由合作渠道</p>
-                </div>
             </div>
             <div class="feature-item">
                 <div class="item-header">
@@ -65,9 +56,6 @@
                         </div>
                     </div>
                     <p>高效便捷</p>
-                </div>
-                <div class="item-body">
-                    <p>提供高效的服务</p>
                 </div>
             </div>
         </div>

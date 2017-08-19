@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <meta name="renderer" content="webkit">
-    {{--<meta name="csrf-token" content="{{ csrf_token() }}">--}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="/favicon.ico" />
     {{--<link rel="stylesheet" href="{{elixir('css/app.css')}}">--}}
     <script src="{{mix('js/vendor.js')}}"></script>
