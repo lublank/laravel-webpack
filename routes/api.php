@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
+
+// prefix 统一前缀， middleware 中间件
+//Route::group(['prefix' => 'individual','middleware' => 'isLogin'], function () {
+//    Route::get('account', 'UtilController@accountById');
+//
+//});
