@@ -4,11 +4,13 @@
 
 版本：
 
-`Composer    1.4.2`
+`Composer   1.4.2`
 
-`Node.js     7.9.0`
+`Node.js    7.9.0`
 
-`npm         4.2.0`
+`npm    4.2.0`
+
+`php: >= 5.6.4`
 
 Composer 下载：https://getcomposer.org/download/
 
