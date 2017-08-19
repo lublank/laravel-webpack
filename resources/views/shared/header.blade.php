@@ -9,7 +9,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="#">
+                    <img src="/images/google.png" alt="Google" height="22" width="60" >
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,12 +32,6 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Link</a></li>
                     <li class="dropdown">

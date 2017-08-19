@@ -1,4 +1,5 @@
 require('bootstrap');
+require('./shared/header');
 
 window._ = require('lodash');
 
