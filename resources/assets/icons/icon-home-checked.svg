@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>snajiao</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页01" transform="translate(-931.000000, -826.000000)">
+            <g id="Group-3" transform="translate(360.000000, 690.000000)">
+                <g id="snajiao" transform="translate(571.000000, 136.000000)">
+                    <path d="M21,0 L21,17.991212 C21,19.6529197 19.6544098,21 17.991212,21 L3.73923115e-13,21 L21,0 Z" id="Rectangle-Copy-8" fill="#009CDF"></path>
+                    <polyline id="Path-3" stroke="#FFFFFF" stroke-linecap="round" points="12 14.3304568 14.379763 16.7102199 18 11"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

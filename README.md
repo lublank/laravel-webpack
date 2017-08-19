@@ -10,7 +10,7 @@
 
 `npm    4.2.0`
 
-`php: >= 5.6.4`
+`php >= 5.6.4`
 
 Composer 下载：https://getcomposer.org/download/
 

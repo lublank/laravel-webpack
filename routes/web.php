@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//index route （首页路由）
+Route::get('/', 'IndexController@getIndexPage')->name('index');

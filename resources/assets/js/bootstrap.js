@@ -1,3 +1,4 @@
+require('bootstrap');
 
 window._ = require('lodash');
 
@@ -12,7 +13,12 @@ try {
 
     require('bootstrap-sass');
 } catch (e) {}
-
+// CSRF_TOKEN
+// $.ajaxSetup({
+//     beforeSend: function(xhr) {
+//         xhr.setRequestHeader('X-CSRF-TOKEN', $('meta[name="csrf-token"]').attr('content') || '');
+//     }
+// });
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the

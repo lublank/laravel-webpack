@@ -1,9 +1,21 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "shared/footer";
+
+//common style sheet （公共样式）
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}

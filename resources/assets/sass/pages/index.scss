@@ -1,0 +1,73 @@
+@import "~icon-sprite.scss";
+// sprite images 打包图片
+.icon {
+    display: inline-block;
+}
+@include sprites($spritesheet-sprites);
+
+.bg {
+    background: url('../../images/bg.gif') repeat;
+}
+
+.our-service {
+    overflow: hidden;
+    .feature-item {
+        float: left;
+        margin: 45px 103px 0 0;
+        text-align: center;
+
+        .icon-home-security {
+            width: 44px;
+            height: 44px;
+        }
+        .icon-home-trust {
+            width: 38px;
+            height: 39px;
+        }
+        .icon-home-business {
+            width: 42px;
+            height: 33px;
+        }
+        .icon-home-efficient {
+            width: 36px;
+            height: 37px;
+        }
+
+        svg {
+            margin-bottom: -4px;
+        }
+        .icon-box {
+            width: 86px;
+            margin: 0 auto 20px;
+        }
+        .item-circle {
+            background: #FFFFFF;
+            box-shadow: 0 1px 6px 0 rgba(187,187,187,0.50);
+            border-radius: 50%;
+            display: table-cell;
+            vertical-align: middle;
+            width: 86px;
+            height: 86px;
+        }
+
+        .item-header {
+            color: #202020;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .item-body {
+            color: #878787;
+            font-size: 13px;
+            line-height: 25px;
+            width: 176px;
+        }
+    }
+}
+
+.images-wrap {
+    margin: 30px 0;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: space-around;
+}

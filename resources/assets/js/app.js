@@ -1,4 +1,5 @@
-
+// 公共样式
+require('../sass/app.scss');
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
