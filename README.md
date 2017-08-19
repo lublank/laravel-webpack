@@ -45,6 +45,8 @@ Node.js 下载：https://nodejs.org/download/release/v7.9.0/
 打包前端资源：
 
     npm run dev
+    npm run watch
+    npm run production
     
 运行项目：
 
